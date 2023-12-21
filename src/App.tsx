@@ -7,7 +7,7 @@ import { Home } from './pages/Home';
 // AAD AppId c01dffb7-2d14-4fa0-affa-9b5edf3f6e49
 
 const router = createBrowserRouter([
-  { path: "/", element: <Home />, },
+  { path: "/rv-starter", element: <Home />, },
 ]);
 
 export interface IAppContext {
